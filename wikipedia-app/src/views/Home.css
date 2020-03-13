@@ -1,0 +1,11 @@
+.app-component {
+  margin: 50px auto 0 auto;
+  max-width: 600px;
+}
+
+
+@media (max-width: 620px) {
+    .app-component {
+        padding: 0px 20px;
+    }
+}

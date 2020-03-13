@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  width:60%;
+  margin: 200px auto;
+}
+
+#formContainer {
+  border-radius: 30px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  padding: 30px 40px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px #4c4b4b;
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+.input-group label {
+  color: #565656;
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.btn-green {
+  margin-top: 20px;
+  background-color: #00af66;
+  color: #fff;
+  border-radius: 5px;
+  padding:10px 0px;
+  width: 50%;
+  -webkit-appearance: media-slider;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media(max-width: 1024px) {
+  .App {
+    width:100%;
+  }
+}
+
+@media(max-width: 650px) {
+  .btn-green {
+    width: 100%;
+  }
+}
